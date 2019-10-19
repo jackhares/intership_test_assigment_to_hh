@@ -18,7 +18,7 @@ public class Main {
 
         char[] x = reader.readLine().toCharArray();
 
-        ArrayList list = new ArrayList();
+        ArrayList<char[]> list = new ArrayList();
 
 
         for (int index = 0; index < x.length; index++){
@@ -46,7 +46,7 @@ public class Main {
                             chislo += matr[i][j - 1];
                         }
 
-                        list.add(chislo);
+                        list.add(chislo.toCharArray());
                         break x;
                     }
 
@@ -56,17 +56,9 @@ public class Main {
         }
 
 
-        System.out.println(list.toString());
-
-        //обход по лиссту
-        for (int ind  =0; ind < list.size(); ind++ ){
-
-
-
-        }
-
-
     }
+
+//    public static x()
 
 
 }
